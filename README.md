@@ -13,7 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 Either add  `UIAnalogClockView`  to a UIView in your storyboard or create an instance of `UIAnalogClockView` in code. 
 
-<p align="center"><img src ="UIAnalogClock/Assets/screenshot.png" width="300px"/></p>
+<p align="center"><img src ="UIAnalogClock/Assets/screenshot.png" width="370px"/></p>
 
 ## Requirements
 
