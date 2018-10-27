@@ -29,10 +29,10 @@
 
 /* Begin PBXFileReference section */
 		011DB9579BAD62C945846066 /* Pods_UIAnalogClock_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIAnalogClock_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0168EF15129A40DD71156EA6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0168EF15129A40DD71156EA6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		14EC43736E9AE7DB40F9190A /* Pods-UIAnalogClock_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIAnalogClock_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIAnalogClock_Tests/Pods-UIAnalogClock_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3540E1E5D89F1BEEB9496153 /* Pods-UIAnalogClock_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIAnalogClock_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIAnalogClock_Example/Pods-UIAnalogClock_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4D2341E37810E6337AA48FA4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4D2341E37810E6337AA48FA4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* UIAnalogClock_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIAnalogClock_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7872E4EAF71DE46949E2D286 /* Pods-UIAnalogClock_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIAnalogClock_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIAnalogClock_Example/Pods-UIAnalogClock_Example.release.xcconfig"; sourceTree = "<group>"; };
-		82A4AF39B744D2C0ADC4989D /* UIAnalogClock.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = UIAnalogClock.podspec; path = ../UIAnalogClock.podspec; sourceTree = "<group>"; };
+		82A4AF39B744D2C0ADC4989D /* UIAnalogClock.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UIAnalogClock.podspec; path = ../UIAnalogClock.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F985206A2DA77BA4D3A14F61 /* Pods_UIAnalogClock_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIAnalogClock_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD46A191AA6A2443D504E199 /* Pods-UIAnalogClock_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIAnalogClock_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIAnalogClock_Tests/Pods-UIAnalogClock_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -466,6 +466,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -511,6 +512,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -526,7 +528,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -541,7 +543,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -562,7 +564,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIAnalogClock_Example.app/UIAnalogClock_Example";
 			};
 			name = Debug;
@@ -580,7 +582,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIAnalogClock_Example.app/UIAnalogClock_Example";
 			};
 			name = Release;

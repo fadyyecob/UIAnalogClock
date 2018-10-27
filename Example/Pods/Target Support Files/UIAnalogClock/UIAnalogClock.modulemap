@@ -1,0 +1,6 @@
+framework module UIAnalogClock {
+  umbrella header "UIAnalogClock-umbrella.h"
+
+  export *
+  module * { export * }
+}

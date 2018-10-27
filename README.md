@@ -22,7 +22,7 @@ pod 'UIAnalogClock'
 
 ## Author
 
-fadyyecob, fransfadi@hotmail.com
+Fady Yecob, fadyyecob.com
 
 ## License
 
