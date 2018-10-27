@@ -11,7 +11,7 @@ Based on https://github.com/fnoah/AnalogClock by Noah Fleischmann.
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-Either add  `UIAnalogClock`  to a UIView in your storyboard or create an instance of `UIAnalogClock` in code. 
+Either add  `UIAnalogClockView`  to a UIView in your storyboard or create an instance of `UIAnalogClockView` in code. 
 
 <p align="center"><img src ="UIAnalogClock/Assets/screenshot.png" width="300px"/></p>
 
