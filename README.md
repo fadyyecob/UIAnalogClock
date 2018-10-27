@@ -9,7 +9,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-![Screenshot](UIAnalogClock/Assets/screenshot.png)
+<p align="center"><img src ="UIAnalogClock/Assets/screenshot.png" width="300px"/></p>
 
 ## Requirements
 
