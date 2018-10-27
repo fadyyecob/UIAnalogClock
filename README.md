@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/UIAnalogClock.svg?style=flat)](https://cocoapods.org/pods/UIAnalogClock)
 [![Platform](https://img.shields.io/cocoapods/p/UIAnalogClock.svg?style=flat)](https://cocoapods.org/pods/UIAnalogClock)
 
+Based on https://github.com/fnoah/AnalogClock by Noah Fleischmann.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
