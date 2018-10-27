@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UIAnalogClock'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A simple view to display an analog time with numbers inside your app.'
 
 # This description is used to generate tags and improve search results.
