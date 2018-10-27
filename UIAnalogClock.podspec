@@ -22,11 +22,10 @@ A simple view to display an analog time with numbers inside your app. Either use
                        DESC
 
   s.homepage         = 'https://github.com/fadyyecob/UIAnalogClock'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'https://github.com/fadyyecob/UIAnalogClock/blob/master/UIAnalogClock/Assets/screenshot.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fadyyecob' => 'fransfadi@hotmail.com' }
   s.source           = { :git => 'https://github.com/fadyyecob/UIAnalogClock.git' , :tag => s.version.to_s}
-  # , :tag => s.version.to_s
   s.social_media_url = 'https://twitter.com/fadyyecob'
 
   s.ios.deployment_target = '8.0'
@@ -35,9 +34,9 @@ A simple view to display an analog time with numbers inside your app. Either use
   
   s.swift_version = '4.2'
   
-  # s.resource_bundles = {
-  #   'UIAnalogClock' => ['UIAnalogClock/Assets/*.png']
-  # }
+    s.resource_bundles = {
+     'UIAnalogClock' => ['UIAnalogClock/Assets/*.png']
+    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
