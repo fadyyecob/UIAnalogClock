@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-A simple view to display an analog time with numbers inside your app.
+A simple view to display an analog time with numbers inside your app. Either use UIAnalogClock directly in your storyboard or create it in code. 
                        DESC
 
   s.homepage         = 'https://github.com/fadyyecob/UIAnalogClock'
@@ -32,6 +32,8 @@ A simple view to display an analog time with numbers inside your app.
   s.ios.deployment_target = '8.0'
 
   s.source_files  = "UIAnalogClock", "UIAnalogClock/**/*.{h,m,swift}"
+  
+  s.swift_version = '4.2'
   
   # s.resource_bundles = {
   #   'UIAnalogClock' => ['UIAnalogClock/Assets/*.png']
