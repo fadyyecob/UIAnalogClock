@@ -28,7 +28,7 @@ pod 'UIAnalogClock'
 
 ## Author
 
-Fady Yecob, fadyyecob.com
+Fady Yecob, https://www.fadyyecob.com
 
 ## License
 
