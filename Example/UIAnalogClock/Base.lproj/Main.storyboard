@@ -38,7 +38,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xto-tz-i0i" customClass="UIAnalogClockView" customModule="UIAnalogClock">
-                                <rect key="frame" x="0.0" y="146" width="375" height="375"/>
+                                <rect key="frame" x="16" y="162" width="343" height="343"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Xto-tz-i0i" secondAttribute="height" multiplier="1:1" id="WGB-A3-ClD"/>
@@ -47,8 +47,8 @@
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="Xto-tz-i0i" secondAttribute="trailing" id="0YU-zy-3jM"/>
-                            <constraint firstItem="Xto-tz-i0i" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="Fv7-Pn-vRm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Xto-tz-i0i" secondAttribute="trailing" id="0YU-zy-3jM"/>
+                            <constraint firstItem="Xto-tz-i0i" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="Fv7-Pn-vRm"/>
                             <constraint firstItem="Xto-tz-i0i" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="d39-Qv-mci"/>
                         </constraints>
                     </view>
